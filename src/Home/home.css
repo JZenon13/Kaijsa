@@ -1,0 +1,37 @@
+.homeImg {
+  width: 75%;
+  height: 500px;
+  border: 10px solid black;
+}
+
+.imgDiv {
+  padding: 15px;
+  display: flex;
+}
+
+.imgDiv .btn {
+  position: absolute;
+  top: 70%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(85, 85, 85, 0.235);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.footer {
+  background: black;
+  color: white;
+  padding: 3em;
+  margin-top: auto;
+  text-align: center;
+}
+
+.sendList {
+  list-style-type: none;
+}
