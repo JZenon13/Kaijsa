@@ -1,10 +1,13 @@
 import React from "react";
+import NavBar from "../NavBar/NavBar";
+import ProductSlider from "./ProductSlider";
 
 function KaijsaSteel() {
-  //carousel
   return (
-    <div>
-      <h1>KaijsaSteel</h1>
+    <div className="kSteelBackground">
+      <h1>Kaijsa Steel</h1>
+      <NavBar />
+      <ProductSlider />
     </div>
   );
 }

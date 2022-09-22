@@ -7,9 +7,9 @@ function NavBar() {
 
   return (
     <>
-      <h1 className="siteTitle">
+      {/* <h1 className="siteTitle">
         <b>Kaijsa by: Casual Jeweler</b>
-      </h1>
+      </h1> */}
       <header>
         <Link to="/">Home</Link>
         <Link to="/productlines">Product Lines</Link>

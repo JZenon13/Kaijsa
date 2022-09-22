@@ -30,7 +30,7 @@ function App() {
         <Route path="/engineereddesigns" element={<EngineeredDesigns />} />
         <Route path="/workwithus" element={<WorkWithUs />} />
       </Routes>
-      <NavBar />
+      {/* <NavBar /> */}
     </div>
   );
 }

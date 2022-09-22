@@ -39,11 +39,31 @@ a:link {
 .footer {
   background: black;
   color: white;
-  padding: 3em;
+  padding: 50px;
   margin-top: auto;
   text-align: center;
 }
 
+.footerLinks {
+  display: flex;
+  gap: 20%;
+}
+
 .sendList {
   list-style-type: none;
+}
+
+.siteTitle {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: tan;
+}
+.siteText {
+  color: tan;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  margin-bottom: -20px;
 }

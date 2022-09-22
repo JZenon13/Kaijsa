@@ -6,10 +6,13 @@ import Footer from "./Footer";
 
 function Home() {
   return (
-    <div>
-      <h1 className="siteTitle">
-        <b>Kaijsa by: Casual Jeweler</b>
-      </h1>
+    <>
+      <div className="siteText">
+        <h1 className="siteTitle">
+          <b>Kaijsa</b>
+        </h1>
+        <h2>by: Casual Jeweler</h2>
+      </div>
       <div className="imgDiv">
         {/* <img
           className="homeImg"
@@ -44,7 +47,7 @@ function Home() {
       </div>
       <br></br>
       <Footer />
-    </div>
+    </>
   );
 }
 
