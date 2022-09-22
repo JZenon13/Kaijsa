@@ -6,7 +6,7 @@ function About() {
   const navigate = useNavigate();
   return (
     <>
-      <h1 className="center">About Us</h1>
+      <h1 className="center"></h1>
       <div className="aboutPages">
         <div>
           <img

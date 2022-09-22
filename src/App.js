@@ -16,8 +16,7 @@ import WorkWithUs from "./About/WorkWithUs";
 
 function App() {
   return (
-    <div>
-      <NavBar />
+    <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/productlines" element={<ProductLines />} />
@@ -31,9 +30,7 @@ function App() {
         <Route path="/engineereddesigns" element={<EngineeredDesigns />} />
         <Route path="/workwithus" element={<WorkWithUs />} />
       </Routes>
-      {/* <Link to="#home" smooth>
-        Home
-      </Link> */}
+      <NavBar />
     </div>
   );
 }

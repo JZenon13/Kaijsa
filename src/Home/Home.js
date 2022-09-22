@@ -7,29 +7,40 @@ import Footer from "./Footer";
 function Home() {
   return (
     <div>
+      <h1 className="siteTitle">
+        <b>Kaijsa by: Casual Jeweler</b>
+      </h1>
       <div className="imgDiv">
-        <img
+        {/* <img
           className="homeImg"
-          src="https://robbreport.com/wp-content/uploads/2022/08/estate-jewelry-trends-main.jpg?w=480"
+          src="https://diamondexchangehouston.com/wp-content/uploads/2021/09/jewelry-exchange.jpg"
           alt=""
-        />
-        <img src="./images/Casual_Jeweler_.png" alt="" />
+        /> */}
+        {/* <img className="camoImg" src="./images/BrownCamo.png" alt="" /> */}
 
-        <button className="btn">
-          <b>Casual Collections</b>
-        </button>
+        {/* <button className="btn">
+          <a href="anotherwebsite"> The Casual Collections</a>
+        </button> */}
       </div>
       <br></br>
-      <hr></hr>
+      {/* <hr></hr> */}
       <div>
         <ProductLines />
       </div>
-      <br></br>
-      <hr></hr>
+      {/* <br></br>
+      <hr></hr> */}
       <div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+
         <About />
         <br></br>
-        <hr></hr>
       </div>
       <br></br>
       <Footer />

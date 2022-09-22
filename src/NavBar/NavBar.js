@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <>
       <h1 className="siteTitle">
-        <b>Kaijsa</b>
+        <b>Kaijsa by: Casual Jeweler</b>
       </h1>
       <header>
         <Link to="/">Home</Link>

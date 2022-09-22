@@ -7,9 +7,9 @@ function Footer() {
       <footer className="footer ">
         <div>
           <ul className="sendList">
-            <li>Sottheby's</li>
-            <li>Davin Yurman</li>
-            <li>Ralph</li>
+            <li>Everything</li>
+            <li>You</li>
+            <li>Need</li>
           </ul>
         </div>
       </footer>
