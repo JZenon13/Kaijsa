@@ -1,15 +1,15 @@
 header {
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   background: white;
   text-align: center;
 }
 
 header a,
 header button {
-  font-size: 20px;
+  /* font-size: 20px; */
   display: inline-block;
   width: 15%;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   text-decoration: none;
   cursor: pointer;
   color: black;
@@ -17,7 +17,7 @@ header button {
 }
 
 .siteTitle {
-  font-size: 40px;
+  /* font-size: 40px; */
   text-align: center;
   margin-bottom: 0;
   margin-top: 0;
@@ -25,6 +25,7 @@ header button {
 }
 
 .searchImg {
-  width: 30px;
+  width: 1.5%;
   margin-bottom: 0;
+  padding-top: 0;
 }

@@ -11,7 +11,7 @@ function ProductLines() {
           <img
             onClick={() => navigate("/kaijsasteel")}
             className="productLineImg pointer"
-            src="https://cdn.shopify.com/s/files/1/1191/6502/articles/Stainless-Steel-Jewelry-Set_grande.jpg?v=1501584287"
+            src="./images/jewelry1.png"
             alt=""
           />
           <h1 className="productLineText">KaijsaSteel</h1>
@@ -20,7 +20,7 @@ function ProductLines() {
           <img
             onClick={() => navigate("/kaijsasterling")}
             className="productLineImg pointer"
-            src="http://cdn.shopify.com/s/files/1/1749/7309/articles/1800x1000_Sterling_Silver_Facts.jpg?v=1564170705"
+            src="./images/jewelry2.png"
             alt=""
           />
           <h1 className="productLineText">Kaijsa Sterling</h1>
@@ -29,7 +29,7 @@ function ProductLines() {
           <img
             onClick={() => navigate("/kaijsatitanium")}
             className="productLineImg pointer"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjgdKAbTyHlNKW6CMv7mnxvEHRNhWH-ElsFw&usqp=CAU"
+            src="./images/jewelry3.png"
             alt=""
           />
           <h1 className="productLineText">KaijsaTitanium</h1>

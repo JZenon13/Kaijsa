@@ -2,19 +2,18 @@
   display: flex;
   text-align: center;
   justify-content: center;
-  background-color: tan;
+  /* background-color: tan; */
 }
 
 .productLineImg {
   display: grid;
-  width: 500px;
-  margin: 10px;
-  /* padding-top: 20px; */
+  width: 90%;
+  margin: 5%;
   padding-bottom: 0%;
-  margin-bottom: -28px;
-  height: 400px;
-  /* border: 1px solid brown; */
-  /* border-radius: 15px; */
+  margin-bottom: 0%;
+  height: 90%;
+  border: 5% solid tan;
+  border-radius: 10%;
 }
 
 .productLineText {
@@ -32,17 +31,21 @@
 }
 
 .sliderImg {
-  padding: 50px;
-  width: 1000px;
-  height: 600px;
-  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+  /* width: 50%; */
+  /* height: 500%; */
+  margin-left: 0;
+  margin-right: 5%;
+  border-radius: 5%;
 }
 
 .rightSliderArrow {
   position: absolute;
   top: 50%;
   color: black;
-  right: 350px;
+  right: 12%;
   font-size: 3rem;
   cursor: pointer;
 }
@@ -51,7 +54,7 @@
   position: absolute;
   top: 50%;
   color: black;
-  left: 350px;
+  left: 18%;
   font-size: 3rem;
   cursor: pointer;
 }
@@ -59,21 +62,21 @@
 .kSteelBackground {
   background-image: url("/public/images/fullSizeCamo.png");
   height: 98vh;
-  width: 100vw;
+  width: 99vw;
   overflow: hidden;
   text-align: center;
 }
 .kSterlingBackground {
   background-image: url("/public/images/fullSizeCamo.png");
   height: 98vh;
-  width: 100vw;
+  width: 99vw;
   overflow: hidden;
   text-align: center;
 }
 .kTitaniumBackground {
   background-image: url("/public/images/fullSizeCamo.png");
   height: 98vh;
-  width: 100vw;
+  width: 99vw;
   overflow: hidden;
   text-align: center;
 }
@@ -90,5 +93,5 @@
 }
 
 #btn {
-  font-size: 45px;
+  font-size: 45rem;
 }

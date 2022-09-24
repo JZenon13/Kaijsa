@@ -1,7 +1,12 @@
 .App {
   font-family: "Ubuntu", sans-serif;
-  background-image: url("/public/images/fullSizeCamo.png");
+  background: url("/public/images/fullSizeCamo.png") no-repeat center center
+    fixed;
   background-color: #ffe4c4b0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .center {
   text-align: center;
